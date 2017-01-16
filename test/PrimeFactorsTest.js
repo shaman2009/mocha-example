@@ -11,8 +11,6 @@ describe('Array', () => {
 
 describe('primes', () => {
     it('should return empty when 1', () => {
-        expect('foo').to.be.a('string');
-
-        // expect([]).to.be.empty; //new PrimeFactors().generate(1)
+        expect(new PrimeFactors().generate(1)).to.be.empty;
     });
 });
