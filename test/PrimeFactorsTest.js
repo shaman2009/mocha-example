@@ -12,7 +12,7 @@ describe('Array', () => {
     });
 });
 
-describe('primes', () => {
+describe('test generate method', () => {
     const primeFactors = new PrimeFactors();
     it('should return empty when 1', () => {
         expect(primeFactors.generate(1)).to.be.empty;
