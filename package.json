@@ -1,0 +1,19 @@
+{
+  "name": "mocha-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0"
+  }
+}
