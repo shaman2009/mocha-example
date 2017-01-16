@@ -10,7 +10,14 @@ describe('Array', () => {
 });
 
 describe('primes', () => {
+    const primeFactors = new PrimeFactors();
     it('should return empty when 1', () => {
-        expect(new PrimeFactors().generate(1)).to.be.empty;
+        expect(primeFactors.generate(1)).to.be.empty;
+    });
+    it('should return 2 when 2', () => {
+        expect(primeFactors.generate(2)).to.deep.equal([2]);
+    });
+    it('should return 3 when 3', () => {
+        expect(primeFactors.generate(3)).to.deep.equal([3]);
     });
 });

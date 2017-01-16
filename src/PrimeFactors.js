@@ -1,7 +1,8 @@
 export default class PrimeFactors {
-    constructor() {}
     generate(num) {
-        console.log('console : ' + num);
+        if (num >= 2) {
+            return [num];
+        }
         return [];
     }
 
