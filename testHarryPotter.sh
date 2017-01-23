@@ -1,0 +1,1 @@
+mocha --compilers js:babel-register test/HarryPotterTest.js
